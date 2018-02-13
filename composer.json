@@ -1,0 +1,27 @@
+{
+    "name": "eunaumtenhoid/globallanguage",
+    "type": "phpbb-extension",
+    "description": "",
+    "homepage": "https://github.com/phpBBTraducoes",
+    "version": "1.0.0",
+    "time": "2018-02-12",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "eunaumtenhoid",
+            "email": "eunaumtenhoid@outlook.com",
+            "homepage": "https://github.com/phpBBTraducoes",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "global language",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,>=3.2.x"
+        }
+    }
+}
