@@ -26,5 +26,5 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TYPE_UPLOAD' 			=> 'Version',
 	'TOPIC_ICON' 			=> 'teste',
-	
+	'FORUM_INDEX'			=> 'Forum',
 ));
