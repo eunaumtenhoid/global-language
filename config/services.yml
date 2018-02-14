@@ -1,0 +1,6 @@
+services:
+    eunaumtenhoid.globallanguage.listener:
+        class: eunaumtenhoid\globallanguage\event\main_listener
+
+        tags:
+            - { name: event.listener }
